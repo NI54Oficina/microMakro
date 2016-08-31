@@ -1,0 +1,42 @@
+@media screen and (max-width: 767px){
+
+
+	.button{
+	  padding:10px 10px;
+	}
+	.button img{
+		width: 100%;
+	}
+
+	.voucher {
+    padding: 3%;
+	}
+
+
+	.inner-promo-section p {
+	    padding-left: 0;
+	}
+/*CIERRE DE LLAVES PRINCIPALES*/
+}
+
+
+@media screen and (max-width: 767px) and (orientation:landscape){
+
+
+/*DISTRIBUCION DE COLUMNAS*/
+	.col-lan-xs-3{
+			width: 25%;
+	}
+
+	.col-lan-xs-6{
+			width: 50%;
+	}
+
+	.col-lan-xs-4{
+			width: 33%;
+	}
+
+
+
+
+}
