@@ -54,6 +54,21 @@ html{
     font-style: normal;
 }
 
+@font-face {
+  font-family: 'VagRoundedLight';
+  src: url('../fonts/VAGRoundedLight.ttf');
+}
+
+@font-face {
+  font-family: 'VagRoundedBold';
+  src: url('../fonts/VAGRoundedBold.ttf');
+}
+
+@font-face {
+  font-family: 'VagRoundedSSBold';
+  src: url('../fonts/VAGRoundedBold.ttf');
+}
+
 body{
 	background-color: #f7f7f7;
 	font-family:'arialregular';
@@ -107,10 +122,11 @@ p{
 }
 
 .menu-li a p{
+  font-family: 'VagRoundedLight';
   display: inline-block;
   color: white;
-  padding-left:35px;
-  padding-right:30px;
+  padding-left:50px;
+  padding-right:50px;
   letter-spacing: 1px;
   text-align: left;
   font-size: 16px;
@@ -119,6 +135,7 @@ p{
 .menu ul{
   list-style:none;
   text-align: right;
+  padding:0;
 }
 
 .menu ul li {
@@ -180,6 +197,8 @@ BLOQUE DE FORMULARIO*/
 .form-down{
   background-color:#262324;
   color: white;
+  font-family: 'VagRoundedBold';
+
 }
 
 .p1-form{
@@ -188,12 +207,14 @@ BLOQUE DE FORMULARIO*/
   background-color:#B81E24 ;
   font-size:15px ;
   color:white;
+  font-family: 'VagRoundedLight';
 
 }
 
 .p2-form{
  color:white;
  font-size: 11px;
+ font-family: 'VagRoundedLight';
 }
 /*BLOQUE DE TARJETA*/
 
@@ -237,10 +258,21 @@ BLOQUE DE FORMULARIO*/
 
 .card p{
   color: white;
-  padding-top: 20px;
-  padding-left: 20px;
-  font-size: 13px;
-  padding-bottom: 10px;
+  margin:0;
+  padding-left:20px;
+}
+
+.card .p1{
+font-size: 14px;
+font-family: 'VagRoundedLight';
+padding-top: 20px;
+}
+
+.card .p2{
+font-size: 16px;
+font-family: 'VagRoundedBold';
+padding-bottom: 10px;
+
 }
 /*BLOQUE DE PROMOCION*/
 
@@ -250,6 +282,7 @@ BLOQUE DE FORMULARIO*/
   border-bottom: 1px solid #B0B1B4;
 }
 .promo-section p{
+  font-family: 'VagRoundedBold';
   color: #C41F26;
   text-align:center;
   font-size: 20px;

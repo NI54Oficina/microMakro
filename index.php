@@ -13,9 +13,12 @@
 
 
 		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 redes-sociales">
+
+			<a href="#"><img src="img/youtube.svg" alt="" /></a>
+			<a href="#"><img src="img/linkedin.svg" alt="" /></a>
 			<a href="#"><img src="img/facebook.svg" alt="" /></a>
-		 <a href="#"><img src="img/linkedin.svg" alt="" /></a>
-		 <a href="#"><img src="img/youtube.svg" alt="" /></a>
+
+
 
 		</div>
 
@@ -110,29 +113,41 @@
 			</div>
 
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 card ">
-				<p>
-					OFERTAS <br> EXCLUSIVAS
+				<p  class="p1">
+					OFERTAS
+				</p>
+				<p   class="p2">
+					EXCLUSIVAS
 				</p>
 				<img src="img/ofertas.svg" alt="" />
 			</div>
 
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 card">
-				<p >
-					NUEVO <br> PASAPORTE
+				<p  class="p1">
+					NUEVO
+				</p>
+				<p  class="p2">
+					 PASAPORTE
 				</p>
 				<img src="img/nuevo-pasaporte.svg" alt="" />
 			</div>
 
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 card">
-				<p>
-					RED <br> M&K
+				<p  class="p1">
+					RED
+				</p>
+				<p  class="p2">
+					M&K
 				</p>
 				<img src="img/red-mk.svg" alt="" />
 			</div>
 
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 card ">
-				<p>
-					NUESTRAS <br> TIENDAS
+				<p class="p1">
+					NUESTRAS
+				</p>
+				<p  class="p2">
+					 TIENDAS
 				</p>
 				<img src="img/nuestras-tiendas.svg" alt="" />
 			</div>

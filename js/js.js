@@ -4,10 +4,10 @@ var importantMobile=false;
 
 var menuReady=true;
 
-$(window).on("load",function () {
-	LoaderGif();
-	LoadFunction();
-});
+// $(window).on("load",function () {
+// 	LoaderGif();
+// 	LoadFunction();
+// });
 
 // LOADING GIF FUNCTION
 function LoaderGif() {
@@ -40,7 +40,7 @@ function LoadFunction(){
 
 
 		if(!isHome || !isMobile){
-			
+
 			if(isApp){
 				ResetHeight();
 				SameHeight();
@@ -288,7 +288,7 @@ function LoadFunction(){
 				$("body").append("<style>.headermobile .navbar-collapse.in{height:auto;min-height:"+auxH+"px;}</style>");
 			}
 			if(isIpad){
-				
+
 				$(".cont-menu-mob").removeClass("hidden-xs");
 				$(".cont-menu-mob").css("display","inline-block");
 			}
@@ -597,7 +597,7 @@ function initializeRemates(){
  	$(this).find('.info-remates-mobile').eq(indexRemates).css("display","block");
 	$(".mes-remates").css("display","block");
 	$(".date-remates").css("display", "block");
-	
+
  	checkNavigationButton();
 
  	//console.log("esto funciona");

@@ -35,7 +35,7 @@
 
     	<!-- JS PROPIO -->
     		<script type="text/javascript" src="js/js.js "></script>
-    		<script type="text/javascript" src="js/jsApp.js "></script>
+    		<!-- <script type="text/javascript" src="js/jsApp.js "></script> -->
 
     	<!--CSS PROPIO-->
     		<link type="text/css" rel="stylesheet" href="css/stylesheet.css" /> <!-- general / interior pagina -->
