@@ -125,8 +125,8 @@ p{
   font-family: 'VagRoundedLight';
   display: inline-block;
   color: white;
-  padding-left:50px;
-  padding-right:50px;
+  padding-left:40px;
+  padding-right:40px;
   letter-spacing: 1px;
   text-align: left;
   font-size: 16px;
@@ -316,4 +316,79 @@ padding-bottom: 10px;
 
 .button{
   padding:30px 50px;
+}
+
+
+/*LANDING SERVICIOS DIFERENCIALES*/
+
+.title-serv{
+  background-color: #231F20;
+}
+
+.title-serv > div > p {
+  color: white;
+  font-family: 'VagRoundedLight';
+}
+
+.title-serv > div > p:first-child {
+  font-size: 20px;
+}
+
+.title-serv > div > p:last-child {
+  font-size: 15px;
+}
+
+.title-line{
+  background-color:#AF1117 ;
+  height: 5px;
+}
+
+.container .outer-box:first-child{
+  background-image: url('../img/servicios-1.jpg');
+}
+
+.container .outer-box:nth-child(2){
+  background-image: url('../img/servicios-2.jpg');
+}
+
+.container .outer-box:nth-child(3){
+  background-image: url('../img/servicios-3.jpg');
+}
+
+.container .outer-box:nth-child(4){
+  background-image: url('../img/servicios-4.jpg');
+}
+
+.container .outer-box{
+  border: 2px solid white;
+  padding: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container .inner-box{
+  background-color: white;
+  opacity: .8;
+  padding: 10px 0px;
+  position:absolute;
+  bottom:15px;
+  left:15px;
+  right:15px;
+}
+
+.inner-box .p-title{
+  color: #231F20;
+  width: 100%;
+  border-bottom: 1px solid #231F20;
+  font-size: 17px;
+}
+
+.inner-box .p-title{
+  color: #616264;
+}
+
+.inner-box > p{
+  font-family: 'VagRoundedLight';
+  padding-left: 10px;
 }

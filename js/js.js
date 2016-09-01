@@ -4,10 +4,10 @@ var importantMobile=false;
 
 var menuReady=true;
 
-// $(window).on("load",function () {
-// 	LoaderGif();
-// 	LoadFunction();
-// });
+$(window).on("load",function () {
+	//LoaderGif();
+	LoadFunction();
+});
 
 // LOADING GIF FUNCTION
 function LoaderGif() {
