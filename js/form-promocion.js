@@ -16,7 +16,8 @@ $(document).ready(function(){
 				$.post(form.attr('action'), form.serialize(), function(data) {
                         alert('Te has registrado con éxito en nuestra base de datos para recibir las ofertas y novedades por email.');
 						console.log(data);
-						$("body").append(data);
+						$("#form-container").hide();
+						$("#voucher-container").append(data);
                         form[0].reset();
 						ShowLoading();
                     }).fail(function() {
