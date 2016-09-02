@@ -546,6 +546,27 @@ display:inline-block;
   padding-bottom:50px;
 }
 
+.box-icon{
+  background-color: white;
+  padding: 10px 15px;
+}
+
+.ptitle-first{
+  font-size: 23px !important;
+  font-family: 'OpenSansRegular' !important;
+  margin-bottom: 0;
+}
+
+.ptitle-second{
+  font-size: 25px !important;
+  font-family: 'OpenSansBold';
+  margin-bottom: 0;
+}
+
+.title-serv .triangle{
+  padding-top: 15% !important;
+}
+
 .container-sub .marco-img{
   background-size: cover;
   background-repeat: no-repeat;
@@ -576,6 +597,7 @@ display:inline-block;
 }
 
 /*LANDING ESTACIONAMIENTO EXCLUSIVOS*/
+
 .container-estacionamiento .marco-img{
   background-image: url('../img/estacionamiento.jpg');
 }
