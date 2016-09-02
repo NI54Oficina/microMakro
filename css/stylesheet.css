@@ -397,8 +397,7 @@ display:inline-block;
 }
 
 .container .inner-box{
-  background-color: white;
-  opacity: .8;
+  background-color: rgba(255,255,255,0.8);
   padding: 10px 0px;
   position:absolute;
   bottom:15px;
@@ -456,7 +455,7 @@ display:inline-block;
 
 
 .container-unidades .outer-box:first-child{
-  background-image: url('../img/unidades-1.png');
+  background-image: url('../img/unidades-1.jpg');
 }
 
 .container-unidades .outer-box:nth-child(2){
@@ -502,6 +501,8 @@ display:inline-block;
 
 
 .container-soluciones .red-box{
+  padding: 15px 30px;
+  letter-spacing: 1px;
   position: absolute;
   color: white;
   right: 10px;
@@ -519,10 +520,18 @@ display:inline-block;
 }
 
 .container-soluciones .red-box p{
-  font-family: 'VagRoundedBold';
+  font-family: 'VagRoundedLight';
   font-size: 15px;
 }
 
 .container-soluciones .red-box p span{
   font-size:30px;
+  font-family: 'VagRoundedBold';
+}
+
+.img-soluciones-3{
+  position: absolute;
+  width: 40%;
+  bottom: 50%;
+  right: 15px;
 }
