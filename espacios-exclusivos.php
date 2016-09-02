@@ -3,148 +3,70 @@
 <?php include('header.php'); ?>
 
 
+<!-- Caja de titulo -->
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  video-section">
-	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-		<iframe width="100%" height="400" src="https://www.youtube.com/embed/hP1lpMKTTdQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen>
-		</iframe>
-	</div>
-	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 form-section">
-		<div class="form-up">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  title-serv">
 
-				<p class="p1-form">
-					GESTIONÁ <br>	 TU PASAPORTE
-				</p>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+  <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 card-logo-1">  </div>
+</div>
 
-				<p class="p2-form">
-					LA FORMA MÁS RÁPIDA DE CONSEGUIR BENEFICIOS
-				</p>
+<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+  <p>
+    ÁREAS EXCLUSIVAS EN LA TIENDA
+  </p>
 
-			</div>
-
-		<div class="form-down">
-			BLALBLABLALBBLAB BLA BLA BLA BLA BLA LA BLA BLA LAB A BLA BLA LBV
-		</div>
-	</div>
-
-
+  <p>
+    QUE TUS COMPRAS SEAN MÁS RÁPIDAS Y CÓMODAS
+  </p>
 
 </div>
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  card-section">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 inner-card-section">
-
-			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-10 card-logo">
-
-
-				<img src="img/pasaporte-profesional.png" alt="" />
-
-			</div>
-			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 triangle">
-				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 card-logo-1">
-
-				</div>
-
-			</div>
-
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 card ">
-				<p  class="p1">
-					OFERTAS
-				</p>
-				<p   class="p2">
-					EXCLUSIVAS
-				</p>
-				<img src="img/ofertas.svg" alt="" />
-			</div>
-
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 card">
-				<p  class="p1">
-					NUEVO
-				</p>
-				<p  class="p2">
-					 PASAPORTE
-				</p>
-				<img src="img/nuevo-pasaporte.svg" alt="" />
-			</div>
-
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 card">
-				<p  class="p1">
-					RED
-				</p>
-				<p  class="p2">
-					M&K
-				</p>
-				<img src="img/red-mk.svg" alt="" />
-			</div>
-
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 card ">
-				<p class="p1">
-					NUESTRAS
-				</p>
-				<p  class="p2">
-					 TIENDAS
-				</p>
-				<img src="img/nuestras-tiendas.svg" alt="" />
-			</div>
-
-		</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title-line"></div>
 
 </div>
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 promo-section">
-<p  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-	CON SOLO REGISTRATE YA TENES UN VOUCHER
-</p>
+<!-- Caja contenedora de los bloques de imagenes -->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  container container-espacios">
+<!-- Bloque uno-->
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 outer-box square " hid="1">
+  <div class="inner-box">
+    <p class="p-title">
+      CAJAS EXCLUSIVAS
+    </p>
+    <p class="p-body">
+      El nuevo pasaporte te habilita a operar en las cajas exclusivas del Club Profesional Makro para que hagas una compra más ágil y estés más tiempo en tu negocio.
+    </p>
+  </div>
+</div>
 
-<div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 inner-promo-section">
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 voucher">
-		<img src="img/voucher.svg" alt="" />
-	</div>
+<!-- Bloque dos-->
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 outer-box square " hid="1">
+  <div class="inner-box">
+    <p class="p-title">
+      ESTACIONAMIENTO PREFERENCIAL Y ÁREA DE CARGA EXCLUSIVA
+    </p>
+    <p class="p-body">
+      Estacioná tu vehículo en los sectores preferenciales, para que faciliten la velocidad de carga. Para ahorrar tiempo y hacer tu visita a Makro mucho más eficiente.
+    </p>
+  </div>
+</div>
 
-	<p  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-		PARA UTILIZAR EN LA PRÓXIMA COMPRA
-	</p>
+<!-- Bloque tres-->
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 outer-box " hid="1">
+  <div class="inner-box inner-box-especial">
+    <p class="p-title">
+      ÁREA DE NEGOCIOS EXCLUSIVA
+    </p>
+    <p class="p-body">
+      Tu pasaporte te habilita a ingresar a un área exclusiva para que planifiques y negocies tu compra de forma más efectiva:  </p>
+      <li>Ofertas vigentes y de último minuto que solo acceden los clientes que ingresen al área.</li>
+      <li>Planificá tu compra con facilidad, mientras tomás un café y hablas con los asesores disponibles. </li>
+
+  </div>
 </div>
 
 
 </div>
-
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 buttons-section">
-
-	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-01.svg" alt="" />
-	</div>
-
-	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-02.svg" alt="" />
-	</div>
-
-	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-03.svg" alt="" />
-	</div>
-
-	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-04.svg" alt="" />
-	</div>
-
-	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-05.svg" alt="" />
-	</div>
-
-	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-06.svg" alt="" />
-	</div>
-
-	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-07.svg" alt="" />
-	</div>
-
-	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-08.svg" alt="" />
-	</div>
-
-
-</div>
-
 
 		<?php include('footer.php'); ?>

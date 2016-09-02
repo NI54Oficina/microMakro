@@ -34,15 +34,6 @@ html{
 
 /*FONTS*/
 @font-face {
-    font-family: 'arialregular';
-    src:
-        url('../fonts/DaxlinePro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
     font-family: 'OpenSansRegular';
     src:
         url('../fonts/OpenSans-Regular.ttf') format('truetype');
@@ -63,6 +54,15 @@ html{
 
 }
 
+
+@font-face {
+    font-family: 'arialregular';
+    src:
+        url('../fonts/DaxlinePro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 @font-face {
     font-family: 'arialregular';
@@ -147,17 +147,13 @@ p{
   font-family: 'VagRoundedLight';
   display: inline-block;
   color: white;
-  padding:5px 40px 5px 40px;
+  padding-left:40px;
+  padding-right:40px;
   letter-spacing: 1px;
   text-align: left;
   font-size: 16px;
   margin-bottom: 0;
 }
-
-.menu-linked{
-  background-color: ##231F20;
-}
-
 .menu ul{
   list-style:none;
   text-align: right;
@@ -178,6 +174,11 @@ p{
   text-align: right;
   padding-top: 30px;
 }
+
+.menu-linked{
+  background-color: ##231F20;
+}
+
 
 .logo{
   background: black;
@@ -353,17 +354,16 @@ padding-bottom: 10px;
 
 .title-serv > div > p {
   color: white;
-  font-family: 'VagRoundedLight';
 }
 
 .title-serv > div > p:first-child {
   font-size: 20px;
-  font-family: 'OpenSansBold';
+  font-family: ´'OpenSansBold';
 }
 
 .title-serv > div > p:last-child {
   font-size: 15px;
-  font-family: 'OpenSansRegular';
+    font-family: ´'OpenSansRegular';
 }
 
 .title-line{
@@ -371,19 +371,19 @@ padding-bottom: 10px;
   height: 5px;
 }
 
-.container .outer-box:first-child{
+.container-servicios .outer-box:first-child{
   background-image: url('../img/servicios-1.jpg');
 }
 
-.container .outer-box:nth-child(2){
+.container-servicios .outer-box:nth-child(2){
   background-image: url('../img/servicios-2.jpg');
 }
 
-.container .outer-box:nth-child(3){
+.container-servicios .outer-box:nth-child(3){
   background-image: url('../img/servicios-3.jpg');
 }
 
-.container .outer-box:nth-child(4){
+.container-servicios .outer-box:nth-child(4){
   background-image: url('../img/servicios-4.jpg');
 }
 
@@ -412,14 +412,61 @@ display:inline-block;
   border-bottom: 1px solid #231F20;
   font-size: 17px;
   font-family: 'OpenSansBold';
+
 }
 
 .inner-box > p{
-  padding-left: 10px;
+  padding-left: 15px;
 }
-
-.inner-box > p:nth-child(2){
+.inner-box > .p-body{
 
   color: #616264;
   font-family: 'OpenSansRegular';
+}
+/*LANDING ESPACIOS EXCLUSIVOS*/
+
+.container-espacios .outer-box:first-child{
+  background-image: url('../img/espacios-1.jpg');
+}
+
+
+
+.container-espacios .outer-box:nth-child(2){
+  background-image: url('../img/espacios-2.jpg');
+}
+
+.container-espacios .outer-box:nth-child(3){
+  background-image: url('../img/espacios-3.jpg');
+}
+
+.container-espacios .inner-box  li{
+  list-style: circle !important;
+  padding-left: 15px;
+  font-family: 'OpenSansRegular';
+    color: #616264;
+}
+
+.container-espacios .inner-box-especial{
+
+    right: 50%;
+}
+
+
+/*LANDING UNIDADES DE NEGOCIO*/
+
+
+.container-unidades .outer-box:first-child{
+  background-image: url('../img/unidades-1.png');
+}
+
+.container-unidades .outer-box:nth-child(2){
+  background-image: url('../img/unidades-2.jpg');
+}
+
+.container-unidades .outer-box:nth-child(3){
+  background-image: url('../img/unidades-3.jpg');
+}
+
+.container-unidades .outer-box:nth-child(4){
+  background-image: url('../img/unidades-4.jpg');
 }
