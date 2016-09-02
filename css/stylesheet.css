@@ -470,3 +470,16 @@ display:inline-block;
 .container-unidades .outer-box:nth-child(4){
   background-image: url('../img/unidades-4.jpg');
 }
+
+/*FOOTER INTERNO*/
+
+.footer{
+  padding: 20px 0px;
+}
+.footer div{
+  padding: 15px;
+}
+
+.footer div a img{
+  width: 100%;
+}
