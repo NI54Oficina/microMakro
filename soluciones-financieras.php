@@ -60,7 +60,7 @@
       Financiación simple y segura para tu negocio.
 Con la terminal makro, tus clientes pueden pagarte con tarjeta y a vos te queda el crédito para comprar en Makro.
  </p>
-
+ <img class="img-soluciones-1" src="img/soluciones-3" alt="" />
   </div>
 </div>
 
