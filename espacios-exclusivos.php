@@ -42,7 +42,7 @@
 
 <!-- Bloque dos-->
 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 outer-box square " hid="1">
-  <div class="inner-box">
+  <div class="inner-box ">
     <p class="p-title">
       ESTACIONAMIENTO PREFERENCIAL Y ÁREA DE CARGA EXCLUSIVA
     </p>
