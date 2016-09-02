@@ -30,8 +30,9 @@ function LoadFunction(){
 		CheckDevice();
 		Header();
 		ResetHeight();
-		SameHeight();
 		AdaptSquare();
+		SameHeight();
+		
 		FillParent();
 		ResizeViewportElements();
 		CenterToParent();
@@ -156,8 +157,9 @@ function LoadFunction(){
 			fitBackground();
 			$(".fadder").css('transition',"0.5s");
 			$("section").css('transition',"0.5s");
-			SameHeight();
 			AdaptSquare();
+			SameHeight();
+			
 			$(".fadder").css('opacity',1);
 			$("section").css('opacity',1);
 		},1000);
