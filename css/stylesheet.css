@@ -470,16 +470,16 @@ display:inline-block;
   background-image: url('../img/unidades-4.jpg');
 }
 
-/*FOOTER INTERNO*/
+/*NAV INTERNO DE LINKS*/
 
-.footer{
+.nav{
   padding: 20px 0px;
 }
-.footer div{
+.nav div{
   padding: 15px;
 }
 
-.footer div a img{
+.nav div a img{
   width: 100%;
 }
 
@@ -543,18 +543,85 @@ display:inline-block;
 }
 
 .container-sub{
-  padding-bottom:30px;
+  padding-bottom:50px;
 }
 
 .container-sub .marco-img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container-cajas .marco-img{
   background-image: url('../img/cajas.jpg');
 }
 
 .container-sub .marco-text {
-  padding: 30px 30px;
+  padding: 30px 50px;
 }
 
 .container-sub .marco-text p {
   font-family: 'OpenSansRegular';
-  font-
+  font-size:15px;
+  color: #616264;
+}
+.container-sub .marco-text h1 {
+  font-family: 'OpenSansBold';
+  font-size:20px;
+  color: #D61921;
+}
+.container-sub .marco-text p span {
+  font-family: 'OpenSansBold';
+  color: #D61921;
+}
+
+/*LANDING ESTACIONAMIENTO EXCLUSIVOS*/
+.container-estacionamiento .marco-img{
+  background-image: url('../img/estacionamiento.jpg');
+}
+
+/*LANDING SERVICIO TELEFONICO*/
+.container-telefonico .marco-img{
+  background-image: url('../img/telefonico.jpg');
+}
+
+/*LANDING OFERTAS EXCLUSIVAS*/
+.container-ofertas .marco-img{
+  background-image: url('../img/ofertas.jpg');
+}
+
+/*LANDING AREA DE NEGOCIOS*/
+.container-negocios .marco-img{
+  background-image: url('../img/area-de-negocios.jpg');
+}
+
+/*LANDING RED MK*/
+.container-redmk .marco-img{
+  background-image: url('../img/red-mk.jpg');
+}
+
+/*LANDING AREA DE TERMINAL MAKRO*/
+.container-terminal .marco-img{
+  background-image: url('../img/terminal.jpg');
+}
+
+/*LANDING RED MAKRO CREDITO*/
+.container-credito .marco-img{
+  background-image: url('../img/credito.jpg');
+}
+
+/*FOOTER*/
+
+.footer{
+  background-color: #D61921;
+  padding: 10px 30px;
+}
+
+.footer p{
+  color: white;
+  font-family: 'VagRoundedLight';
+}
+
+.footer .img-footer{
+  padding-left: 12%;;
 }

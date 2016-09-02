@@ -12,7 +12,7 @@
 
 <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
   <p>
-    CAJAS
+    OFERTAS
   </p>
 
   <p>
@@ -26,17 +26,15 @@
 </div>
 
 <!-- Caja contenedora de los bloques de imagenes -->
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  container-sub container-cajas">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  container-sub container-ofertas">
 
 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 marco-img " hid="1">
 
 </div>
 
 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 marco-text " hid="1">
-    <h1> CAJAS EXCLUSIVAS</h1>
-    <p>El nuevo pasaporte te habilita a operar en las
-      <span>cajas exclusivas del Club Profesional Makro</span>
-        para que hagas una compra más ágil y estés más tiempo en tu negocio.
+    <h1> OFERTAS PARA TUS CLIENTES </h1>
+    <p>Te proveemos de <span>folletos</span> para que informes a tus clientes de tus ofertas.
     </p>
 </div>
 
@@ -44,7 +42,6 @@
 
 
 <?php include('nav-inferior-2.php'); ?>
-
 		<?php include('nav-inferior-1.php'); ?>
 
 <?php include('footer.php'); ?>

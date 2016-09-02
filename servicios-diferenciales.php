@@ -79,4 +79,6 @@
 
 </div>
 
+		<?php include('nav-inferior-1.php'); ?>
+
 		<?php include('footer.php'); ?>
