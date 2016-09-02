@@ -1,6 +1,7 @@
-	<?php include('head.php'); ?>
+<?php include('head.php'); ?>
 
-	<?php include('header.php'); ?>
+<?php include('header.php'); ?>
+
 
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  video-section">
@@ -146,4 +147,4 @@
 </div>
 
 
-	
+		<?php include('footer.php'); ?>
