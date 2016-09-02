@@ -1,16 +1,16 @@
 <?php
 
-
+include("head.php");
+include("header.php");
 ?>
-<div class="container-fluid main_content">
+	
+<div class="container">
     <div class="row" style="margin-top: 30px;">
         <div class="col-xs-12">
 
-            <div class="form_title form_title_mail" style="background-image:url( <?php echo $data['items'][102][0]['src'];?>);">
-                <?php echo $data['items'][101][0]['texto'];?>
-            </div>
+           
 
-            <form id="form_email" action="/contacto-registrar" method="post">
+            <form id="form_email" action="/promo-registrar" method="post">
                 <input type="hidden" name="envia" id="envia" value="1" />
                 <div class="form_makro form_mail row">
                     <div class="col-sm-6">
@@ -138,10 +138,12 @@
                 <sup>*</sup> Campos obligatorios
             </div>
 
-            <div class="form_condiciones">
-               <?php echo $data['items'][103][0]['texto'];?>
-            </div>
-
+           
         </div>
     </div>
 </div>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/jquery.numeric.js"></script>
+<script src="/assets/js/fileinput.min.js"></script>
+<script src="/assets/js/fileinput_locale_es.js"></script>
+<script type="text/javascript" src="js/form-promocion.js"></script>
