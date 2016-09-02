@@ -1,7 +1,7 @@
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header-section">
 
-	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
+	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 logo">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 inner-logo">
 			<a href="index.php">
 					<img class="img-logo" src="img/logo-club-profesional.svg" alt="" />
@@ -14,7 +14,7 @@
 
 
 
-		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 redes-sociales">
+		<div class="col-lg-9 col-md-9 col-sm-6 col-xs-6 redes-sociales">
 
 			<a href="#"><img src="img/youtube.svg" alt="" /></a>
 			<a href="#"><img src="img/linkedin.svg" alt="" /></a>

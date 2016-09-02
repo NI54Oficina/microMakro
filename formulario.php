@@ -339,3 +339,5 @@ form *{
 <script src="/assets/js/fileinput.min.js"></script>
 <script src="/assets/js/fileinput_locale_es.js"></script>
 <script type="text/javascript" src="js/form-promocion.js"></script>
+
+<?php include("footer.php"); ?>

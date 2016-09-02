@@ -9,7 +9,14 @@
 
 	/*FIN DE LLAVE PRINCIPAL*/
 
-
+	.menu-li{
+		width:40%;
+		display:inline-block;
+		
+	}
+	html{
+		padding:0 10px;
+	}
 }
 
 
