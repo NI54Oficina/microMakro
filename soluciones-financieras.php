@@ -35,6 +35,7 @@
     <p class="p-title">
     MAKRO CRÉDITO
     </p>
+      <div class="line-box"></div>
     <p class="p-body">
       Ya tenés disponible un crédito pre-aprobado para que puedas abastecer tu negocio con todo. Tenerlo es muy fácil, los requisitos son mínimos y tenés hasta 30 días para pagarlo (1).
     </p>
@@ -56,6 +57,7 @@
     <p class="p-title">
       TERMINAL MAKRO
     </p>
+      <div class="line-box"></div>
     <p class="p-body">
       Financiación simple y segura para tu negocio.
       Con la terminal makro, tus clientes pueden pagarte con tarjeta y a vos te queda el crédito para comprar en Makro.

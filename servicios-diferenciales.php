@@ -34,6 +34,7 @@
       <p class="p-title">
         NEGOCIACIONES POR VOLUMEN
       </p>
+      <div class="line-box"></div>
       <p class="p-body">
         Todo el staff de la tienda está disponible siempre, para colaborar con vos y las necesidades de tu comercio, para que hagas las compras mas convenientes, optimizando tu inversión, surtido y herramientas comerciales. Tanto el gerente de tu sucursal como los especialistas y asesores están esperándote para encontrar la forma ideal para que tu negocio sea cada dia mas competitivo.
       </p>
@@ -46,6 +47,7 @@
       <p class="p-title">
         ATENCIÓN TELEFÓNICA
       </p>
+      <div class="line-box"></div>
       <p class="p-body">
         El nuevo pasaporte te identifica rápidamente como cliente profesional y deriva tu llamado a un especialista con el que vas a poder negociar compras por volumen o pre-facturar tu pedido.
       </p>
@@ -58,6 +60,7 @@
       <p class="p-title">
         ASESORAMIENTO PROFESIONAL
       </p>
+      <div class="line-box"></div>
       <p class="p-body">
         Tenemos personal altamente capacitado en todas las áreas para brindarte todo el asesoramiento profesional que tu negocio necesita.
 
@@ -71,6 +74,7 @@
       <p class="p-title">
         SALÓN RENOVADO Y EL SURTIDO MÁS COMPLETO DEL PAÍS
       </p>
+      <div class="line-box"></div>
       <p class="p-body">
         Los pasillos de nuestras tiendas son amplios, ordenados, luminosos y con nueva señalización en punteras y góndolas. Todo esto nos convierte en el único mayorista que tiene todos los productos para tu negocio en un solo lugar, para que optimices costos y tiempo. Desde equipamiento hasta carnes, desde leche hasta limpieza, todo lo que tu negocio necesita lo vas a encontrear bajo un mismo techo.
       </p>
