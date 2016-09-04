@@ -32,7 +32,7 @@ function LoadFunction(){
 		ResetHeight();
 		AdaptSquare();
 		SameHeight();
-		
+
 		FillParent();
 		ResizeViewportElements();
 		CenterToParent();
@@ -159,7 +159,7 @@ function LoadFunction(){
 			$("section").css('transition',"0.5s");
 			AdaptSquare();
 			SameHeight();
-			
+
 			$(".fadder").css('opacity',1);
 			$("section").css('opacity',1);
 		},1000);
@@ -372,6 +372,7 @@ function ReadyFunction(){
 		 backButton();
 		 limited();
 		 fitBackground();
+		 ChangeFocus();
 
 
 

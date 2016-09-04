@@ -155,10 +155,13 @@ p{
   margin-bottom: 0;
 }
 
-.menu-li a p:hover{
+.overLink:hover{
 background-color: #BA1011;
 }
 
+.focusLink{
+  background-color: black;
+}
 .menu ul{
   list-style:none;
   text-align: right;
