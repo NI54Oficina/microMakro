@@ -12,11 +12,25 @@
 	.menu-li{
 		width:40%;
 		display:inline-block;
-		
+
 	}
 	html{
 		padding:0 10px;
 	}
+
+	.container-espacios .inner-box-especial, .container-soluciones .inner-box-especial{
+
+	    right: 15px;
+	}
+
+	.inner-card-section {
+
+    padding: 15px 15px;
+}
+
+
+
+/*FIN DE MEDIA*/
 }
 
 

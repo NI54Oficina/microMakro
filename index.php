@@ -53,35 +53,51 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 buttons-section">
 
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-01.svg" alt="" />
+		<a href="estacionamiento-exclusivo.php">
+	    <img src="img/botones-01.svg" alt="" />
+	  </a>
 	</div>
 
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-02.svg" alt="" />
+		<a href="cajas-exclusivas.php">
+	    <img src="img/botones-02.svg" alt="" />
+	  </a>
 	</div>
 
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-03.svg" alt="" />
+		<a href="servicio-telefonico.php">
+	    <img src="img/botones-03.svg" alt="" />
+	  </a>
 	</div>
 
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-04.svg" alt="" />
+		<a href="ofertas-exclusivas.php">
+	    <img src="img/botones-04.svg" alt="" />
+	  </a>
 	</div>
 
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-05.svg" alt="" />
+		<a href="area-de-negocios.php">
+	    <img src="img/botones-05.svg" alt="" />
+	  </a>
 	</div>
 
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-06.svg" alt="" />
+		<a href="red-mk.php">
+	    <img src="img/botones-06.svg" alt="" />
+	  </a>
 	</div>
 
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-07.svg" alt="" />
+		<a href="terminal-makro.php">
+	    <img src="img/botones-07.svg" alt="" />
+	  </a>
 	</div>
 
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<img src="img/botones-08.svg" alt="" />
+		<a href="makro-credito.php">
+	    <img src="img/botones-08.svg" alt="" />
+	  </a>
 	</div>
 
 
