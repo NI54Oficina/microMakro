@@ -130,7 +130,7 @@ include("header.php");
                         </div>
 						 <div class="form_buttons col-xs-12" >
 							<button onclick="resetForm()">Limpiar formulario</button>
-							<button form="form_email">Enviar</button>
+							<button form="form_email" id="formSend">Enviar</button>
 						</div>
                     </div>
                 </div>
@@ -171,6 +171,7 @@ include("header.php");
 .form_makro sup, .form_campos_obligatorios sup{
     color: #df001d;
     font-size: 12px;
+	padding-left:30px;
 }
 
 .form_makro span{
@@ -333,9 +334,38 @@ textarea{
 form *{
 	font-family:"OpenSansRegular";
 }
+label.error{
+	position:absolute;
+	left:0;
+	top:30px;
+	color:red;
+	font-size:12px;
+}
 </style>
 <script type="text/javascript" src="js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="js/jquery.numeric.js"></script>
 <script src="/assets/js/fileinput.min.js"></script>
 <script src="/assets/js/fileinput_locale_es.js"></script>
 <script type="text/javascript" src="js/form-promocion.js"></script>
+
+<script>
+$("body").on("click",".vImprimible",function(){
+	$("header").hide();
+	$(".header-section").hide();
+	$("footer").hide();
+	$(".vButton").hide();
+	print();
+	$("header").show();
+	$(".header-section").show();
+	$(".vButton").show();
+});
+ $('body').keypress(function(event){
+
+    if (event.keyCode === 10 || event.keyCode === 13) {
+        event.preventDefault();
+		$("#formSend").click();
+	}
+  });
+</script>
+
+<?php include("footer.php"); ?>

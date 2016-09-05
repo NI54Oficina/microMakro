@@ -14,7 +14,8 @@
 
 			</div>
 
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 card ">
+			<a href="ofertas-exclusivas.php">
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 nav2-item card ">
 				<p  class="p1">
 					OFERTAS
 				</p>
@@ -23,8 +24,10 @@
 				</p>
 				<img src="img/ofertas.svg" alt="" />
 			</div>
-
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 card">
+			</a>
+			
+			<a href="nuevo-pasaporte.php">
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 nav2-item card">
 				<p  class="p1">
 					NUEVO
 				</p>
@@ -33,8 +36,10 @@
 				</p>
 				<img src="img/nuevo-pasaporte.svg" alt="" />
 			</div>
-
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 card">
+			</a>
+			
+			 <a href="red-mk.php">
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 nav2-item card">
 				<p  class="p1">
 					RED
 				</p>
@@ -43,8 +48,10 @@
 				</p>
 				<img src="img/red-mk.svg" alt="" />
 			</div>
-
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 card ">
+			</a>
+			
+			<a href="http://makro.com.ar/sucursales" target="_blank">
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 nav2-item card ">
 				<p class="p1">
 					NUESTRAS
 				</p>
@@ -53,7 +60,7 @@
 				</p>
 				<img src="img/nuestras-tiendas.svg" alt="" />
 			</div>
-
+			</a>
 		</div>
 
 </div>

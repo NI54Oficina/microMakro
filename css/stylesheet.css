@@ -143,6 +143,10 @@ p{
 
 }
 
+.currentPage  p{
+	background-color:#231F20;
+}
+
 .menu-li a p{
   font-family: 'VagRoundedLight';
   display: inline-block;
@@ -154,17 +158,30 @@ p{
   font-size: 16px;
   margin-bottom: 0;
 }
+
+.overLink:hover{
+background-color: #BA1011;
+}
+
+.focusLink{
+  background-color: black;
+}
 .menu ul{
   list-style:none;
   text-align: right;
   padding:0;
+  width:100%;
 }
 
 .menu ul li {
 	display:inline-block;
 	position: relative;
   border-left: 1px solid white;
+  width:24%;
+  text-align:center;
 }
+
+
 
 .menu ul li:first-child{
   border-left: none;
@@ -242,6 +259,7 @@ BLOQUE DE FORMULARIO*/
  color:white;
  font-size: 11px;
  font-family: 'VagRoundedLight';
+ padding-left:10px;
 }
 /*BLOQUE DE TARJETA*/
 
@@ -290,9 +308,15 @@ BLOQUE DE FORMULARIO*/
 }
 
 .card .p1{
+padding-top:0;
 font-size: 14px;
 font-family: 'VagRoundedLight';
-padding-top: 20px;
+
+}
+
+.nav2-item{
+	padding-top:20px;
+	padding-bottom:20px;
 }
 
 .card .p2{
@@ -305,8 +329,8 @@ padding-bottom: 10px;
 
 .promo-section{
   padding-top:20px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #B0B1B4;
+  margin-bottom: 30px;
+ /** border-bottom: 1px solid #B0B1B4;**/
 }
 .promo-section p{
   font-family: 'VagRoundedBold';
@@ -318,7 +342,7 @@ padding-bottom: 10px;
 .inner-promo-section p{
   text-align: center;
   color:black;
-  padding-left:55px;
+  padding-left:0px;
   font-size: 20px;
 }
 
@@ -359,12 +383,13 @@ padding-bottom: 10px;
 
 .title-serv > div > p:first-child {
   font-size: 20px;
-  font-family: ´'OpenSansBold';
+  font-family: 'OpenSansBold';
+  
 }
 
 .title-serv > div > p:last-child {
   font-size: 15px;
-    font-family: ´'OpenSansRegular';
+    font-family: 'OpenSansBold';
 }
 
 .title-line{
@@ -390,7 +415,7 @@ padding-bottom: 10px;
 
 .container .outer-box{
 display:inline-block;
- border: 2px solid white;
+ border: none;
   padding: 15px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -399,7 +424,6 @@ display:inline-block;
 
 .container .inner-box{
   background-color: rgba(255,255,255,0.8);
-  padding: 10px 0px;
   position:absolute;
   bottom:15px;
   left:15px;
@@ -409,11 +433,19 @@ display:inline-block;
 .inner-box .p-title{
   color: #231F20;
   width: 100%;
-  border-bottom: 1px solid #231F20;
   font-size: 17px;
   font-family: 'OpenSansBold';
+  padding-top: 10px;
+  margin-bottom: 0:
 
 }
+
+.inner-box .line-box{
+  border-bottom: 1px solid #231F20;
+  width: 50%;
+  margin: 10px 0px;
+}
+
 
 .inner-box > p{
   padding-left: 15px;
@@ -447,6 +479,13 @@ display:inline-block;
 }
 
 .container-espacios .inner-box-especial, .container-soluciones .inner-box-especial{
+
+    right: 50%;
+	min-height:150px;
+	padding-bottom:10px;
+}
+
+.container-espacios .inner-box-especial, .container-nuevo-pasaporte .inner-box-especial{
 
     right: 50%;
 }
@@ -491,13 +530,25 @@ display:inline-block;
   background-image: url('../img/soluciones-1.jpg');
 }
 
+.container-nuevo-pasaporte .outer-box:first-child{
+  background-image: url('../img/nuevo-pasaporte-1.jpg');
+}
+.container-nuevo-pasaporte .inner-box > .p-body{
+	width:95%;
+}
+
 .container-soluciones .outer-box:last-child{
   background-image: url('../img/soluciones-2.jpg');
+  background-position:top;	
 }
 
 
 .container-soluciones .outer-box{
   min-height: 60vh;
+}
+
+.container-nuevo-pasaporte .outer-box{
+  min-height: 100vh;
 }
 
 
@@ -523,6 +574,8 @@ display:inline-block;
 .container-soluciones .red-box p{
   font-family: 'VagRoundedLight';
   font-size: 15px;
+  margin:0;
+  line-height:22px;
 }
 
 .container-soluciones .red-box p span{
@@ -532,7 +585,7 @@ display:inline-block;
 
 .img-soluciones-3{
   position: absolute;
-  width: 40%;
+  width: 30%;
   bottom: 50%;
   right: 15px;
 }
@@ -550,6 +603,10 @@ display:inline-block;
 .box-icon{
   background-color: white;
   padding: 10px 15px;
+}
+
+.box-icon img{
+  width: 100%;
 }
 
 .ptitle-first{
@@ -646,5 +703,5 @@ display:inline-block;
 }
 
 .footer .img-footer{
-  padding-left: 12%;;
+  padding-left: 5%;
 }

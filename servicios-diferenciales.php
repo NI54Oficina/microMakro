@@ -2,7 +2,9 @@
 
 <?php include('header.php'); ?>
 
-
+<script>
+$(".menu ul li:nth-child(1)").addClass("currentPage");
+</script>
   <!-- Caja de titulo -->
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  title-serv">
@@ -10,8 +12,20 @@
   <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 ">
     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 card-logo-1">  </div>
   </div>
+<<<<<<< HEAD
 
   <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 center-to-parent">
+=======
+	<div class="hidden-sm hidden-xs">
+	<div style="width:10px;background-color:white;position:absolute;height:79px;"></div>
+	
+	<div class="triangle" style="position:absolute;padding-top:0 !important;width:30px;padding-left:10px;margin-top:20px;">
+          <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 card-logo-1">  </div>
+        </div>
+	</div>
+  <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+	
+>>>>>>> origin/master
     <p>
       SERVICIOS DIFERENCIALES
     </p>
@@ -34,6 +48,7 @@
       <p class="p-title">
         NEGOCIACIONES POR VOLUMEN
       </p>
+      <div class="line-box"></div>
       <p class="p-body">
         Todo el staff de la tienda está disponible siempre, para colaborar con vos y las necesidades de tu comercio, para que hagas las compras mas convenientes, optimizando tu inversión, surtido y herramientas comerciales. Tanto el gerente de tu sucursal como los especialistas y asesores están esperándote para encontrar la forma ideal para que tu negocio sea cada dia mas competitivo.
       </p>
@@ -46,6 +61,7 @@
       <p class="p-title">
         ATENCIÓN TELEFÓNICA
       </p>
+      <div class="line-box"></div>
       <p class="p-body">
         El nuevo pasaporte te identifica rápidamente como cliente profesional y deriva tu llamado a un especialista con el que vas a poder negociar compras por volumen o pre-facturar tu pedido.
       </p>
@@ -58,6 +74,7 @@
       <p class="p-title">
         ASESORAMIENTO PROFESIONAL
       </p>
+      <div class="line-box"></div>
       <p class="p-body">
         Tenemos personal altamente capacitado en todas las áreas para brindarte todo el asesoramiento profesional que tu negocio necesita.
 
@@ -71,6 +88,7 @@
       <p class="p-title">
         SALÓN RENOVADO Y EL SURTIDO MÁS COMPLETO DEL PAÍS
       </p>
+      <div class="line-box"></div>
       <p class="p-body">
         Los pasillos de nuestras tiendas son amplios, ordenados, luminosos y con nueva señalización en punteras y góndolas. Todo esto nos convierte en el único mayorista que tiene todos los productos para tu negocio en un solo lugar, para que optimices costos y tiempo. Desde equipamiento hasta carnes, desde leche hasta limpieza, todo lo que tu negocio necesita lo vas a encontrear bajo un mismo techo.
       </p>
