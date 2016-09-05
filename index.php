@@ -37,13 +37,13 @@
 
 <?php include('nav-inferior-2.php'); ?>
 <a href="formulario.php" target="_blank">
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 promo-section" style="overflow:hidden;">
-<div class="hidden-sm hidden-xs" style="width:200px;height:280px;background-image:url('img/julian-home.png');position:absolute;right:15px;background-size:100% auto;z-index:10;background-repeat:no-repeat;background-position:bottom;top:-15px;"></div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 promo-section" style="overflow:hidden;" hid=5>
+<div hid=5 class="hidden-sm hidden-xs" style="width:200px;background-image:url('img/julian-home.png');position:absolute;right:15px;background-size:100% auto;z-index:10;background-repeat:no-repeat;background-position:bottom;"></div>
 <p  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	CON SOLO REGISTRARTE YA TENES UN VOUCHER
 </p>
 
-<div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 inner-promo-section">
+<div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 inner-promo-section" style="padding-left:10%;">
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 voucher">
 		<img src="img/voucher.svg" alt="" />
 	</div>

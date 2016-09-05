@@ -12,8 +12,16 @@
   <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 card-logo-1">  </div>
 </div>
 
+<div class="hidden-sm hidden-xs">
+	<div style="width:10px;background-color:white;position:absolute;height:79px;"></div>
+	
+	<div class="triangle" style="position:absolute;padding-top:0 !important;width:30px;padding-left:10px;margin-top:20px;">
+          <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 card-logo-1">  </div>
+        </div>
+	</div>
+
 <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
-  <p>
+  <p style="padding-top:10px;">
     NUEVO PASAPORTE CLUB PROFESIONAL
   </p>
 
@@ -40,19 +48,19 @@
 		Si tenés un almacén, restaurante u otro tipo de comercio, obtené tu Pasaporte Club Profesional y abastecé tu negocio con los mejores precios, surtido y calidad.<br>
 		El Pasaporte Club Profesional es una forma personalizada de atenderte mejor, una herramienta ideal para vos y tu negocio, porque nos permite contar previamente con tus datos para agilizar tu pago en la caja y proponerte las ofertas más interesantes.
 		<br><br>
-		<span style="color:#D51921;">Requisitos para obtener el Pasaporte Makro:</span><br>
+		<span style="color:#D51921;font-family:'OpenSansBold'">Requisitos para obtener el Pasaporte Makro:</span><br>
 	 </p>
 		
 		
-		<div style="display:inline-block;width:40%;overflow:hidden;padding-left:15px;" hid=3>Comerciantes:
-			<ul style="list-style-type:disc;">
+		<div style="display:inline-block;width:40%;overflow:hidden;padding-left:15px;" hid=3><span style="font-family:'OpenSansBold';">Comerciantes:</span>
+			<ul style="list-style-type:disc;padding-left:20px;">
 			<li style="list-style-type:disc;">Inscripción CUIT</li>
 			<li style="list-style-type:disc;">Inscripción IIBB</li>
 			<li style="list-style-type:disc;">DNI titular</li>
 			</ul>
 		</div>
-		<div style="display:inline-block;width:40%;overflow:hidden;padding-left:15px;" hid=3>Particular:
-			<ul style="list-style-type:disc;">
+		<div style="display:inline-block;width:40%;overflow:hidden;padding-left:15px;" hid=3><span style="font-family:'OpenSansBold';">Particular:</span>
+			<ul style="list-style-type:disc;padding-left:20px;">
 			<li style="list-style-type:disc;">
 			DNI titular</li></ul>
 		</div>
