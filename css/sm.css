@@ -17,12 +17,10 @@
 	html{
 		padding:0 10px;
 	}
-<<<<<<< HEAD
 	
 	.img-footer{
 		text-align:center;
 	}
-=======
 
 	.container-espacios .inner-box-especial, .container-soluciones .inner-box-especial{
 
@@ -32,12 +30,11 @@
 	.inner-card-section {
 
     padding: 15px 15px;
-}
+	}
 
 
 
 /*FIN DE MEDIA*/
->>>>>>> origin/master
 }
 
 

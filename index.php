@@ -62,29 +62,20 @@
 
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
 		<a href="estacionamiento-exclusivo.php">
-<<<<<<< HEAD
 		<img src="img/botones-01.svg" alt="" />
 		</a>		
-=======
-	    <img src="img/botones-01.svg" alt="" />
-	  </a>
->>>>>>> origin/master
 	</div>
 
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
 		<a href="cajas-exclusivas.php">
-<<<<<<< HEAD
 		<img src="img/botones-02.svg" alt="" />
 		</a>
-=======
-	    <img src="img/botones-02.svg" alt="" />
-	  </a>
->>>>>>> origin/master
+
 	</div>
 
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
 		<a href="servicio-telefonico.php">
-<<<<<<< HEAD
+
 		<img src="img/botones-03.svg" alt="" />
 		</a>
 	</div>
@@ -92,60 +83,36 @@
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
 		 <a href="ofertas-exclusivas.php">
 		<img src="img/botones-04.svg" alt="" />
-=======
-	    <img src="img/botones-03.svg" alt="" />
-	  </a>
+		</a>
 	</div>
 
-	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
-		<a href="ofertas-exclusivas.php">
-	    <img src="img/botones-04.svg" alt="" />
-	  </a>
->>>>>>> origin/master
-	</div>
+	
 
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
 		<a href="area-de-negocios.php">
-<<<<<<< HEAD
 		<img src="img/botones-05.svg" alt="" />
 		</a>
-=======
-	    <img src="img/botones-05.svg" alt="" />
-	  </a>
->>>>>>> origin/master
+
 	</div>
 
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
 		<a href="red-mk.php">
-<<<<<<< HEAD
+
 		<img src="img/botones-06.svg" alt="" />
 		</a>
-=======
-	    <img src="img/botones-06.svg" alt="" />
-	  </a>
->>>>>>> origin/master
 	</div>
 
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
 		<a href="terminal-makro.php">
-<<<<<<< HEAD
+
 		<img src="img/botones-07.svg" alt="" />
 		</a>
-=======
-	    <img src="img/botones-07.svg" alt="" />
-	  </a>
->>>>>>> origin/master
 	</div>
 
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 button">
 		<a href="makro-credito.php">
-<<<<<<< HEAD
 		<img src="img/botones-08.svg" alt="" />
 		</a>
-=======
-	    <img src="img/botones-08.svg" alt="" />
-	  </a>
->>>>>>> origin/master
 	</div>
 
 

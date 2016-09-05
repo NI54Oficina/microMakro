@@ -43,7 +43,6 @@
 	html{
 		padding:0 10px;
 	}
-<<<<<<< HEAD
 	
 	.img-footer{
 		text-align:center;
@@ -95,7 +94,6 @@
 	.footer .img-footer{
 		padding-bottom:10px;
 	}
-=======
 
 	.container-espacios .inner-box-especial, .container-soluciones .inner-box-especial{
 
@@ -105,17 +103,16 @@
 	.inner-card-section {
 
     padding: 15px 15px;
-}
+	}
 
-.footer {
-    padding: 10px 0px;
-}
+	.footer {
+		padding: 10px 0px;
+	}
 
-.footer .img-footer {
-    padding-left: 5%;
-}
+	.footer .img-footer {
+		padding-left: 5%;
+	}
 
->>>>>>> origin/master
 /*CIERRE DE LLAVES PRINCIPALES*/
 }
 
