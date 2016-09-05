@@ -26,6 +26,9 @@
 	.inner-promo-section p {
 	    padding-left: 0;
 	}
+	.inner-promo-section{
+		padding:0;
+	}
 	.menu ul li:first-child{
 		border-left:1px solid white;
 	}
@@ -36,7 +39,7 @@
 	.menu-li a p{
 		padding:10px 0;
 	}
-	.menu-li{
+	.menu ul li{
 		width:40%;
 		display:inline-block;
 	}
@@ -110,9 +113,18 @@
 	}
 
 	.footer .img-footer {
-		padding-left: 5%;
+		/*padding-left: 5%;*/
 	}
-
+	.redes-sociales img{
+		width:23%;
+	}
+	.half-right,.half-left{
+		border-right:0;
+		border-left:0;
+	}
+	.container-sub .marco-text{
+		padding:30px 25px;
+	}
 /*CIERRE DE LLAVES PRINCIPALES*/
 }
 
@@ -136,4 +148,36 @@
 
 
 
+}
+
+@media screen and (max-width: 290px){
+	.container-servicios .outer-box{
+		min-height:300px;
+		height:auto !important;
+	}
+	.container-servicios.container .inner-box{
+		height:auto !important;
+		position:initial;
+	}
+	.container-nuevo-pasaporte .inner-box-especial{
+		position:initial;
+		max-width:100%;
+	}
+	.container-nuevo-pasaporte .inner-box-especial:last-child{
+		height:200px !important;
+		width:100% !important;
+	}
+	.container-nuevo-pasaporte .outer-box{
+		padding-bottom:0;
+	}
+	.title-serv .triangle .card-logo-1{
+		border-width:40px 44px 0 0;
+	}
+	.title-serv > div > p{
+		margin-left:-15px;
+	}
+	.inner-card-section .triangle {
+		position:absolute;
+		right:15px;
+	}
 }
