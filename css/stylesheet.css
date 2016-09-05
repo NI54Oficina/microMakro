@@ -28,7 +28,7 @@ a {
 
 html{
 	margin:0;
-	padding:0px 40px;
+	padding:0px 100px;
 }
 
 
@@ -420,6 +420,7 @@ display:inline-block;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom:5px;
 }
 
 .container .inner-box{
@@ -442,7 +443,7 @@ display:inline-block;
 
 .inner-box .line-box{
   border-bottom: 1px solid #231F20;
-  width: 50%;
+  width: 10%;
   margin: 10px 0px;
 }
 
@@ -587,7 +588,7 @@ display:inline-block;
   position: absolute;
   width: 30%;
   bottom: 50%;
-  right: 15px;
+  right: 30px;
 }
 
 /*LANDING CAJAS EXCLUSIVAS*/

@@ -62,7 +62,7 @@ $(".menu ul li:nth-child(3)").addClass("currentPage");
 
 <!-- Bloque dos-->
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 outer-box " hid="1">
-  <div class="inner-box inner-box-especial">
+  <div class="inner-box inner-box-especial" style="padding-top:20px;">
     <p class="p-title">
       TERMINAL MAKRO
     </p>

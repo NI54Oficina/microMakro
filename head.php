@@ -8,9 +8,11 @@
 
 
     <!--FAV ICON-->
-    	<link type="text/css" href="img/favicon.ico" rel="shortcut icon" />
+			<link rel="shortcut icon" href="/img/favicon.ico">
+            <link rel="icon" href="/img/favicon.ico">
 
 
+			
     		<!--CSS-->
     		<link type="text/css"  rel="stylesheet" href="css/bootstrap.min.css" />
     		<link type="text/css"  rel="stylesheet" href="css/custom-icons.css">

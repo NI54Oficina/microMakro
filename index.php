@@ -49,7 +49,7 @@
 	</div>
 
 	<p  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-		PARA UTILIZAR EN LA PRÓXIMA COMPRA
+		PARA UTILIZAR EN LA PROXIMA COMPRA
 	</p>
 	
 </div>
