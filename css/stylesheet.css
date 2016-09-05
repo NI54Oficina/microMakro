@@ -158,6 +158,14 @@ p{
   font-size: 16px;
   margin-bottom: 0;
 }
+
+.overLink:hover{
+background-color: #BA1011;
+}
+
+.focusLink{
+  background-color: black;
+}
 .menu ul{
   list-style:none;
   text-align: right;
@@ -411,7 +419,6 @@ display:inline-block;
 
 .container .inner-box{
   background-color: rgba(255,255,255,0.8);
-  padding: 10px 0px;
   position:absolute;
   bottom:15px;
   left:15px;
@@ -421,11 +428,19 @@ display:inline-block;
 .inner-box .p-title{
   color: #231F20;
   width: 100%;
-  border-bottom: 1px solid #231F20;
   font-size: 17px;
   font-family: 'OpenSansBold';
+  padding-top: 10px;
+  margin-bottom: 0:
 
 }
+
+.inner-box .line-box{
+  border-bottom: 1px solid #231F20;
+  width: 50%;
+  margin: 10px 0px;
+}
+
 
 .inner-box > p{
   padding-left: 15px;
@@ -579,6 +594,10 @@ display:inline-block;
 .box-icon{
   background-color: white;
   padding: 10px 15px;
+}
+
+.box-icon img{
+  width: 100%;
 }
 
 .ptitle-first{

@@ -6,6 +6,7 @@
 $(".menu ul li:nth-child(4)").addClass("currentPage");
 </script>
 
+
   <!-- Caja de titulo -->
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  title-serv">
@@ -43,6 +44,7 @@ $(".menu ul li:nth-child(4)").addClass("currentPage");
       <p class="p-title">
         GANÁ RENTABILIDAD CON DESCUENTOS EXCLUSIVOS
       </p>
+        <div class="line-box"></div>
       <p class="p-body">
         En todos los productos estén o no en oferta que se aplicarán automáticamente en caja.
       </p>
@@ -55,6 +57,7 @@ $(".menu ul li:nth-child(4)").addClass("currentPage");
       <p class="p-title">
         MEJORÁ LA EXHIBICIÓN DE PRODUCTOS EN OFERTAS
       </p>
+        <div class="line-box"></div>
       <p class="p-body">
       Te enviaremos material promocional para que destaques los productos en oferta.
       </p>
@@ -67,6 +70,7 @@ $(".menu ul li:nth-child(4)").addClass("currentPage");
       <p class="p-title">
         OFERTAS PARA TUS CLIENTES
       </p>
+        <div class="line-box"></div>
       <p class="p-body">
         Te proveemos de folletos para que informes a tus clientes de tus ofertas.
 
@@ -79,6 +83,8 @@ $(".menu ul li:nth-child(4)").addClass("currentPage");
     <div class="inner-box">
       <p class="p-title">
       ATRAÉ MÁS CLIENTES
+    </p>
+        <div class="line-box"></div>
       <p class="p-body">
         Por ser miembro de la RED M&K accedés a una marquesina para tu negocio que le da mejor visibilidad.
       </p>

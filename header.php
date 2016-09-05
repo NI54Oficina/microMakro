@@ -30,7 +30,7 @@
 			<ul>
 				<li class="menu-li">
 						<a href="servicios-diferenciales.php">
-							<p>
+							<p class="addClass overLink">
 							 Servicios <br> diferenciales
 							</p>
 						</a>
@@ -38,7 +38,7 @@
 
 				<li class="menu-li">
 						<a href="espacios-exclusivos.php">
-							<p>
+							<p class="addClass overLink">
 								Espacios <br> exclusivos
 							</p>
 						</a>
@@ -46,7 +46,7 @@
 
 				<li class="menu-li">
 						<a href="soluciones-financieras.php">
-							<p>
+							<p class="addClass overLink">
 								Soluciones <br> financieras
 							</p>
 						</a>
@@ -54,7 +54,7 @@
 
 				<li class="menu-li">
 						<a href="unidades-de-negocio.php">
-							<p>
+							<p class=" addClass overLink">
 								Unidades <br> de negocio
 							</p>
 						</a>

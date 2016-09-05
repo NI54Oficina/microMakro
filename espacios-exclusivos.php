@@ -43,6 +43,7 @@ $(".menu ul li:nth-child(2)").addClass("currentPage");
     <p class="p-title">
       CAJAS EXCLUSIVAS
     </p>
+      <div class="line-box"></div>
     <p class="p-body">
       El nuevo pasaporte te habilita a operar en las cajas exclusivas del Club Profesional Makro para que hagas una compra más ágil y estés más tiempo en tu negocio.
     </p>
@@ -55,6 +56,7 @@ $(".menu ul li:nth-child(2)").addClass("currentPage");
     <p class="p-title">
       ESTACIONAMIENTO PREFERENCIAL Y ÁREA DE CARGA EXCLUSIVA
     </p>
+      <div class="line-box"></div>
     <p class="p-body">
       Estacioná tu vehículo en los sectores preferenciales, para que faciliten la velocidad de carga. Para ahorrar tiempo y hacer tu visita a Makro mucho más eficiente.
     </p>
@@ -67,6 +69,7 @@ $(".menu ul li:nth-child(2)").addClass("currentPage");
     <p class="p-title">
       ÁREA DE NEGOCIOS EXCLUSIVA
     </p>
+      <div class="line-box"></div>
     <p class="p-body">
       Tu pasaporte te habilita a ingresar a un área exclusiva para que planifiques y negocies tu compra de forma más efectiva:  </p>
       <li>Ofertas vigentes y de último minuto que solo acceden los clientes que ingresen al área.</li>
