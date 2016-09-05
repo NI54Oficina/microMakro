@@ -6,7 +6,7 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  video-section">
 	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 		
-		<iframe width="98%" height="400" src="https://www.youtube.com/embed/hP1lpMKTTdQ?autoplay=1&controls=0&loop=1&rel=0&showinfo=0&modestbranding=1" frameborder="0"    hid=2></iframe>
+		<iframe width="98%" height="400" src="https://www.youtube.com/embed/hP1lpMKTTdQ?autoplay=0&controls=0&loop=1&rel=0&showinfo=0&modestbranding=1" frameborder="0"    hid=2></iframe>
 	</div>
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 form-section" hid=2 style="background-color:#262324;">
 		<div class="form-up">
