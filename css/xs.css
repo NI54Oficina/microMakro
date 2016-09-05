@@ -43,6 +43,57 @@
 	html{
 		padding:0 10px;
 	}
+	
+	.img-footer{
+		text-align:center;
+		padding:0;
+		margin:0;
+	}
+	.footer .img-footer{
+		padding-left:0;
+	}
+	.form_buttons{
+		text-align:center;
+	}
+	
+	.box-icon{
+		padding:10px 3px;
+	}
+	.box-icon > img{
+		width:100%;
+	}
+	.title-serv .triangle{
+		padding-top:0 !important;
+	}
+	.title-serv .triangle .card-logo-1{
+		border-width:40px 60px 0 0;
+		margin-top:-1px;
+	}
+	
+	.nav2-item{
+		text-align:center;
+		
+	}
+	.card p{
+		padding-left:0;
+	}
+	
+	.container-espacios .inner-box-especial, .container-nuevo-pasaporte .inner-box-especial{
+		right:initial;
+		max-width:90%;
+	}
+	.container-sub > div{
+		min-height:auto;
+	}
+	.container-redmk .marco-img{
+		height:300px !important;
+	}
+	.container-terminal .marco-img{
+		background-position:top;
+	}
+	.footer .img-footer{
+		padding-bottom:10px;
+	}
 /*CIERRE DE LLAVES PRINCIPALES*/
 }
 

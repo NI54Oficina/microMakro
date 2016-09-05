@@ -143,6 +143,10 @@ p{
 
 }
 
+.currentPage  p{
+	background-color:#231F20;
+}
+
 .menu-li a p{
   font-family: 'VagRoundedLight';
   display: inline-block;
@@ -242,6 +246,7 @@ BLOQUE DE FORMULARIO*/
  color:white;
  font-size: 11px;
  font-family: 'VagRoundedLight';
+ padding-left:10px;
 }
 /*BLOQUE DE TARJETA*/
 
@@ -290,9 +295,15 @@ BLOQUE DE FORMULARIO*/
 }
 
 .card .p1{
+padding-top:0;
 font-size: 14px;
 font-family: 'VagRoundedLight';
-padding-top: 20px;
+
+}
+
+.nav2-item{
+	padding-top:20px;
+	padding-bottom:20px;
 }
 
 .card .p2{
@@ -305,8 +316,8 @@ padding-bottom: 10px;
 
 .promo-section{
   padding-top:20px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #B0B1B4;
+  margin-bottom: 30px;
+ /** border-bottom: 1px solid #B0B1B4;**/
 }
 .promo-section p{
   font-family: 'VagRoundedBold';
@@ -359,12 +370,13 @@ padding-bottom: 10px;
 
 .title-serv > div > p:first-child {
   font-size: 20px;
-  font-family: ´'OpenSansBold';
+  font-family: 'OpenSansBold';
+  padding-top:10px;
 }
 
 .title-serv > div > p:last-child {
   font-size: 15px;
-    font-family: ´'OpenSansRegular';
+    font-family: 'OpenSansRegular';
 }
 
 .title-line{
@@ -451,6 +463,11 @@ display:inline-block;
     right: 50%;
 }
 
+.container-espacios .inner-box-especial, .container-nuevo-pasaporte .inner-box-especial{
+
+    right: 50%;
+}
+
 
 /*LANDING UNIDADES DE NEGOCIO*/
 
@@ -491,13 +508,25 @@ display:inline-block;
   background-image: url('../img/soluciones-1.jpg');
 }
 
+.container-nuevo-pasaporte .outer-box:first-child{
+  background-image: url('../img/nuevo-pasaporte-1.jpg');
+}
+.container-nuevo-pasaporte .inner-box > .p-body{
+	width:95%;
+}
+
 .container-soluciones .outer-box:last-child{
   background-image: url('../img/soluciones-2.jpg');
+  background-position:top;	
 }
 
 
 .container-soluciones .outer-box{
   min-height: 60vh;
+}
+
+.container-nuevo-pasaporte .outer-box{
+  min-height: 100vh;
 }
 
 

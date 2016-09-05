@@ -16,9 +16,9 @@
 
 		<div class="col-lg-9 col-md-9 col-sm-6 col-xs-6 redes-sociales">
 
-			<a href="#"><img src="img/youtube.svg" alt="" /></a>
-			<a href="#"><img src="img/linkedin.svg" alt="" /></a>
-			<a href="#"><img src="img/facebook.svg" alt="" /></a>
+			<a href="https://www.youtube.com/channel/UCVXAqyVvgO5cTFJ4b1HLIGw" target="_blank"><img src="img/youtube.svg" alt="" /></a>
+			<a href="https://www.linkedin.com/company/supermercados-mayoristas-makro" target="_blank"><img src="img/linkedin.svg" alt="" /></a>
+			<a href="https://www.facebook.com/makrohipermayorista" target="_blank"><img src="img/facebook.svg" alt="" /></a>
 
 
 

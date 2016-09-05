@@ -340,4 +340,17 @@ form *{
 <script src="/assets/js/fileinput_locale_es.js"></script>
 <script type="text/javascript" src="js/form-promocion.js"></script>
 
+<script>
+$("body").on("click",".vImprimible",function(){
+	$("header").hide();
+	$(".header-section").hide();
+	$("footer").hide();
+	$(".vButton").hide();
+	print();
+	$("header").show();
+	$(".header-section").show();
+	$(".vButton").show();
+});
+</script>
+
 <?php include("footer.php"); ?>
